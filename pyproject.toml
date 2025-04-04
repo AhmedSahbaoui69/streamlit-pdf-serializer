@@ -1,0 +1,16 @@
+[project]
+name = "facture-microdata"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.9"
+dependencies = [
+    "azure-ai-documentintelligence>=1.0.2",
+    "langchain>=0.3.22",
+    "langchain-ollama>=0.3.0",
+    "marimo>=0.12.4",
+    "pdf2image>=1.17.0",
+    "pytesseract>=0.3.13",
+    "st-diff-viewer>=1.0.7",
+    "streamlit>=1.44.1",
+]
