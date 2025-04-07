@@ -1,6 +1,6 @@
 import streamlit as st
-from models.tesseract import TesseractOCR
-from models.azure import AzureAI
+from model_managers.tesseract import TesseractOCR
+from model_managers.azure import AzureAI
 from st_diff_viewer import diff_viewer
 import os
 import time
@@ -20,7 +20,7 @@ with col2:
 
 # Model selection
 models = {
-  "Tesseract + Nuextract": TesseractOCR(),
+  "Tesseract + Ollama": TesseractOCR(),
   "Azure AI Document Intelligence": AzureAI()
 }
 selected_model_names = st.multiselect("Choose OCR models to use *", list(models.keys()), key="model_selector")
