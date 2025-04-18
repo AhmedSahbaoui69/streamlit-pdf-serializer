@@ -1,0 +1,50 @@
+{
+  "prompts": {
+    "en": [
+      "what is the raw invoice number?",
+      "what is the due payment DATE?",
+      "what is the invoice DATE?",
+      "what is the raw Ref PO number?",
+      "What is the raw order number?",
+      "what is the raw SWIFT code?"
+    ],
+    "fr": [
+      "What is le numéro de facture?",
+      "what is la DATE d'échéance?",
+      "quelle est la DATE de facture?",
+      "quel est le numéro brut de bon de commande?",
+      "quel est le numéro brut de commande entreprise?",
+      "quel est le code SWIFT?"
+    ]
+  },
+  "fields": {
+    "en": [
+      "Invoice Number",
+      "Due Date",
+      "Invoice Date",
+      "PO Number",
+      "Order Number",
+      "SWIFT Code"
+    ],
+    "fr": [
+      "Numéro de facture",
+      "Date d'échéance",
+      "Date de facture",
+      "Numéro de bon de commande",
+      "Numéro de commande",
+      "SWIFT Code"
+    ]
+  },
+  "business_synonyms": {
+    "en": {
+      "number": ["No", "#", "n°"],
+      "due": ["Payment"],
+      "po": ["No", "Ref"]
+    },
+    "fr": {
+      "numéro": ["n°", "#" , "réf"],
+      "date d'échéance": ["limite paiement"],
+      "date de facture": ["facturation"]
+    }
+  }
+}
